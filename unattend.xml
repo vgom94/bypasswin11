@@ -17,7 +17,7 @@
 		</component>
 	</settings>
 	<settings pass="generalize"></settings>
-	<settings pass="specialize">
+	<settings pass="specialize" wasPassProcessed="false">
 		<component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
 			<RunSynchronous>
 				<RunSynchronousCommand wcm:action="add">
@@ -45,7 +45,7 @@
 	</settings>
 	<settings pass="auditSystem"></settings>
 	<settings pass="auditUser"></settings>
-	<settings pass="oobeSystem">
+	<settings pass="oobeSystem" wasPassProcessed="false">
 		<component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
 			<InputLocale>0c0a:0000040a</InputLocale>
 			<SystemLocale>es-ES</SystemLocale>
